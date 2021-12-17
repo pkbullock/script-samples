@@ -116,6 +116,10 @@
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Get-SPOBuiltInDesignPackageVisibility?view=sharepoint-ps"
   },
   {
+    "cmd": "Get-SPOBuiltInSiteTemplateSettings",
+    "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Get-SPOBuiltInSiteTemplateSettings?view=sharepoint-ps"
+  },
+  {
     "cmd": "Get-SPOCrossGeoMovedUsers",
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Get-SPOCrossGeoMovedUsers?view=sharepoint-ps"
   },
@@ -304,6 +308,10 @@
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Get-SPOTenantOrgRelationByScenario?view=sharepoint-ps"
   },
   {
+    "cmd": "Get-SPOTenantRenameStatus",
+    "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Get-SPOTenantRenameStatus?view=sharepoint-ps"
+  },
+  {
     "cmd": "Get-SPOTenantServicePrincipalPermissionGrants",
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Get-SPOTenantServicePrincipalPermissionGrants?view=sharepoint-ps"
   },
@@ -398,6 +406,10 @@
   {
     "cmd": "New-SPOSiteGroup",
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/New-SPOSiteGroup?view=sharepoint-ps"
+  },
+  {
+    "cmd": "New-SPOSiteSharingReportJob",
+    "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/New-SPOSiteSharingReportJob?view=sharepoint-ps"
   },
   {
     "cmd": "New-SPOTenantOrgRelation",
@@ -572,6 +584,10 @@
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOBuiltInDesignPackageVisibility?view=sharepoint-ps"
   },
   {
+    "cmd": "Set-SPOBuiltInSiteTemplateSettings",
+    "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOBuiltInSiteTemplateSettings?view=sharepoint-ps"
+  },
+  {
     "cmd": "Set-SPODataConnectionSetting",
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPODataConnectionSetting?view=sharepoint-ps"
   },
@@ -700,6 +716,10 @@
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Start-SPOSiteRename?view=sharepoint-ps"
   },
   {
+    "cmd": "Start-SPOTenantRename",
+    "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Start-SPOTenantRename?view=sharepoint-ps"
+  },
+  {
     "cmd": "Start-SPOUnifiedGroupMove",
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Start-SPOUnifiedGroupMove?view=sharepoint-ps"
   },
@@ -710,6 +730,10 @@
   {
     "cmd": "Stop-SPOSiteContentMove",
     "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Stop-SPOSiteContentMove?view=sharepoint-ps"
+  },
+  {
+    "cmd": "Stop-SPOTenantRename",
+    "helpUrl": "https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Stop-SPOTenantRename?view=sharepoint-ps"
   },
   {
     "cmd": "Stop-SPOUserAndContentMove",

@@ -33,6 +33,13 @@
     
     
     <meta property="docfx:newtab" content="true">
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "8j6pedl344");
+  </script>
   </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
@@ -76,7 +83,7 @@
           <div class="col-md-12">
             <article class="content wrap" id="_content" data-uid="">
                   <div class="contribution-panel mobile-hide pull-right">
-                      <a href="https://github.com/pnp/script-samples/blob/main/docfx/contributing/submitting-pull-requests.md/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
+                      <a href="https://github.com/pkbullock/script-samples/blob/main/docfx/contributing/submitting-pull-requests.md/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
                   </div>
                     <h1 id="submitting-pull-requests">Submitting Pull Requests</h1>
 
@@ -110,7 +117,7 @@ git remote add upstream https://github.com/pnp/script-samples.git
 </code></pre>
 </li>
 <li><p>Make your changes in a new git branch:</p>
-<pre><code class="lang-shell">git checkout -b working-with-files-in-libraries master
+<pre><code class="lang-shell">git checkout -b working-with-files-in-libraries main
 </code></pre>
 </li>
 </ul>
@@ -124,19 +131,19 @@ git remote add upstream https://github.com/pnp/script-samples.git
 </li>
 <li><p>For a quick cheat sheet:</p>
 <pre><code class="lang-shell"># assuming you are in the folder of your locally cloned fork....
-git checkout master
+git checkout main
 
 # assuming you have a remote named `upstream` pointing official **script-samples** repo
 git fetch upstream
 
-# update your local master to be a mirror of what's in the main repo
-git pull --rebase upstream master
+# update your local main to be a mirror of what's in the main repo
+git pull --rebase upstream main
 
 # switch to your branch where you are working, say &quot;working-with-files-in-libraries&quot;
 git checkout working-with-files-in-libraries
 
-# update your branch to update it's fork point to the current tip of master &amp; put your changes on top of it
-git rebase master
+# update your branch to update it's fork point to the current tip of main &amp; put your changes on top of it
+git rebase main
 </code></pre>
 </li>
 </ul>

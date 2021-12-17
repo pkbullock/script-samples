@@ -33,6 +33,13 @@
     
     
     <meta property="docfx:newtab" content="true">
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "8j6pedl344");
+  </script>
   </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
@@ -76,7 +83,7 @@
           <div class="col-md-12">
             <article class="content wrap" id="_content" data-uid="">
                   <div class="contribution-panel mobile-hide pull-right">
-                      <a href="https://github.com/pnp/script-samples/blob/main/docfx/contributing/merging-existing-project.md/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
+                      <a href="https://github.com/pkbullock/script-samples/blob/main/docfx/contributing/merging-existing-project.md/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
                   </div>
                     <h1 id="merging-your-existing-github-projects-with-this-repository">Merging your Existing GitHub Projects with this Repository</h1>
 
@@ -92,15 +99,15 @@ git init
 </li>
 <li><p>Pull your forked copy of <code>script-samples</code> into your local repository</p>
 <pre><code class="lang-shell">git remote add origin https://github.com/yourgitaccount/script-samples.git
-git pull origin master
+git pull origin main
 </code></pre>
 </li>
 <li><p>Pull your other project from GitHub into the <code>samples</code> folder of your local copy of <code>script-samples</code></p>
-<pre><code class="lang-shell">git subtree add --prefix=samples/projectname https://github.com/yourgitaccount/projectname.git master
+<pre><code class="lang-shell">git subtree add --prefix=samples/projectname https://github.com/yourgitaccount/projectname.git main
 </code></pre>
 </li>
 <li><p>Push the changes up to your forked repository</p>
-<pre><code class="lang-shell">git push origin master
+<pre><code class="lang-shell">git push origin main
 </code></pre>
 </li>
 </ul>

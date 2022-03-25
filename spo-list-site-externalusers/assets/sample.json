@@ -7,7 +7,7 @@
     "title": "List all external users in all site collections",
     "url": "https://pnp.github.io/script-samples/spo-list-site-externalusers/README.html",
     "creationDateTime": "2021-03-15",
-    "updateDateTime": "2021-12-17",
+    "updateDateTime": "2022-02-16",
     "shortDescription": "Script helps you to list all external users in all SharePoint Online sites",
     "longDescription": null,
     "products": [
@@ -20,7 +20,19 @@
       "SharePoint Online",
       "Governance",
       "External Users",
-      "Imported CLI Sample"
+      "Imported CLI Sample",
+      "m365 login",
+      "m365 status",
+      "m365 spo externaluser list",
+      "m365 spo site classic list",
+      "m365 spo user list",
+      "Connect-PnPOnline",
+      "Get-PnPTenant",
+      "Get-PnPTenantSite",
+      "Get-PnPUser",
+      "Connect-SPOService",
+      "Get-SPOExternalUser",
+      "Get-SPOSite"
     ],
     "metadata": [
       {
@@ -30,6 +42,10 @@
       {
         "key": "SPO-MANAGEMENT-SHELL",
         "value": "16.0.21116.12000"
+      },
+      {
+        "key": "PNP-POWERSHELL",
+        "value": "1.5.0"
       }
     ],
     "thumbnails": [
@@ -42,6 +58,12 @@
       }
     ],
     "authors": [
+      {
+        "name": "Chandani Prajapati",
+        "gitHubAccount": "chandaniprajapati",
+        "company": "Rapid Circle",
+        "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
+      },
       {
         "gitHubAccount": "pkbullock",
         "company": "CaPa Creative Ltd",
@@ -70,6 +92,11 @@
         "name": "List all external users in all site collections",
         "description": "This sample first appeared on the CLI for Microsoft 365 documentation site",
         "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-site-externalusers/"
+      },
+      {
+        "name": "Want to learn more about PnP PowerShell and the cmdlets",
+        "description": "Check out the PnP PowerShell site to get started and for the reference to the cmdlets.",
+        "url": "https://aka.ms/pnp/powershell"
       }
     ]
   }

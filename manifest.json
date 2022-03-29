@@ -2814,6 +2814,52 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "../scripts/spo-create-modern-pages-add-web-parts/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "spo-create-modern-pages-add-web-parts/README.html",
+          "hash": "FcDOPPEa6niAS8aJ33/YvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "plugin": "add-to-gallery"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-create-modern-pages-add-web-parts/assets/example.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-create-modern-pages-add-web-parts/assets/example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-create-modern-pages-add-web-parts/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-create-modern-pages-add-web-parts/assets/preview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-create-modern-pages-add-web-parts/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "spo-create-modern-pages-add-web-parts/assets/sample.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "../scripts/spo-create-sharepoint-groups-bulk-csv/README.md",
       "output": {
         ".html": {
@@ -7741,7 +7787,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdusage.html",
-          "hash": "1P0A0UPs45lYDyQlXlHGrg=="
+          "hash": "k4FJz94ccBcxQAZZ9lE6Ww=="
         }
       },
       "is_incremental": false,
@@ -7850,7 +7896,7 @@
       "output": {
         ".html": {
           "relative_path": "matrix.html",
-          "hash": "T5c0CYAsmHf5OOZ2fHuPlw=="
+          "hash": "pfGLK8YfQk+9WQE5Eg/m0Q=="
         }
       },
       "is_incremental": false,
@@ -7862,7 +7908,7 @@
       "output": {
         ".html": {
           "relative_path": "metadata.html",
-          "hash": "mF74EEaZ/yB9S4+fjMgXRg=="
+          "hash": "S5PzFoAhJ5GrAmXUKM6WEg=="
         }
       },
       "is_incremental": false,

@@ -1646,6 +1646,52 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "../scripts/graph-get-license-and-signins/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "graph-get-license-and-signins/README.html",
+          "hash": "iSQF+IiMaUdx7HLAaVci+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "plugin": "add-to-gallery"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/graph-get-license-and-signins/assets/example.png",
+      "output": {
+        "resource": {
+          "relative_path": "graph-get-license-and-signins/assets/example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/graph-get-license-and-signins/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "graph-get-license-and-signins/assets/preview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/graph-get-license-and-signins/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "graph-get-license-and-signins/assets/sample.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "../scripts/magic-tooltips-module/README.md",
       "output": {
         ".html": {
@@ -8920,7 +8966,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdusage.html",
-          "hash": "XcqWteOro3hU0ZSDlhqddQ=="
+          "hash": "o3ZIw97svsMGkS1SZbcZYA=="
         }
       },
       "is_incremental": false,
@@ -9029,7 +9075,7 @@
       "output": {
         ".html": {
           "relative_path": "matrix.html",
-          "hash": "B3c/S/sIdOy+32Kqtt03Dg=="
+          "hash": "FKkxPWaqy606CPUbcbBg9g=="
         }
       },
       "is_incremental": false,
@@ -9041,7 +9087,7 @@
       "output": {
         ".html": {
           "relative_path": "metadata.html",
-          "hash": "l3XO2/EMubSoaqNdyffEjQ=="
+          "hash": "kL5OAUFZbK/MXjx+3O7Hzg=="
         }
       },
       "is_incremental": false,

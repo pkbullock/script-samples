@@ -47,8 +47,25 @@
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
              <div class="github-mark">
-              <a href="https://github.com/pnp/script-samples">
-                <img src="https://pnp.github.io/script-samples/assets/icons/github-light-64px.png" alt="GitHub Icon Image">
+              <a href="https://github.com/pnp/script-samples" title="Go to repository">
+               <div class="github-wrapper">
+                  <div class="github-icon">
+                    <img src="https://pnp.github.io/script-samples/assets/icons/github-light-64px.png" alt="GitHub Icon Image">
+                  </div>
+                  <div class="github-repository">
+                    <span>GitHub</span>
+                    <ul class="github-facts">
+                      <li>
+                        <i class="fa fa-code-fork" aria-hidden="true"></i>
+                        <span class="github-forks"></span>
+                      </li>
+                      <li>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <span class="github-stars"></span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </a>
             </div>
             <div class="navbar-header">
@@ -121,7 +138,7 @@
 <td><a href="aad-apps-expired-keys/README.html">List out all Azure AD Apps along with their Credentials</a></td>
 <td style="text-align: center;">Graph, Azure</td>
 <td style="text-align: center;">Report, Security</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">Connect-MgGraph, Get-MgApplication, Get-MgApplicationOwner</td>
 <td style="text-align: center;">GRAPH-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -165,7 +182,7 @@
 <td><a href="aad-get-app-permission/README.html">Get Azure AD app permission info (delegated or application)</a></td>
 <td style="text-align: center;">SharePoint, Graph, Azure</td>
 <td style="text-align: center;">Data, Configure, Report, Security</td>
-<td style="text-align: center;">classic, m365 login, m365 status, m365 aad sp get, m365 cli config get, m365 cli config set, Connect-MgGraph</td>
+<td style="text-align: center;">classic, m365 login, m365 status, m365 aad sp get, m365 cli config get, m365 cli config set, Connect-MgGraph, Get-MgServicePrincipal</td>
 <td style="text-align: center;">CLI-FOR-MICROSOFT365, GRAPH-POWERSHELL, POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -217,10 +234,21 @@
 <td style="text-align: center;">3</td>
 </tr>
 <tr>
+<td><a href="azure-delete-allresources-resourcegroup/README.html">Delete all resources from a resource group</a></td>
+<td style="text-align: center;">Azure</td>
+<td style="text-align: center;">Configure</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">AZURE-CLI</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="bulk-restore-from-recyclebin/README.html">Restore large number of items from SharePoint Recycle bin in bulk</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data</td>
-<td style="text-align: center;">recycle bin, restore, bulk, PnPRecycleBin</td>
+<td style="text-align: center;">recycle bin, restore, bulk, Get-PnPRecycleBin, Invoke-PnPSPRestMethod</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -272,6 +300,17 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="export-onedrive-sites-details-to-csv/README.html">Export OneDrive Sites</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Report</td>
+<td style="text-align: center;">SharePoint Online, Connect-SPOService, Connect-PnPOnline, Get-SPOSite, Get-PnPTenantSite</td>
+<td style="text-align: center;">PNP-POWERSHELL, SPO-MANAGEMENT-SHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
 <td><a href="fetch-user-profile-properties/README.html">Fetch User Profile Properties From Site Collection And Export To CSV</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Report, Get-PnPWeb, Get-PnPUser, Get-PnPUserProfileProperty, m365 login, m365 spo user list, m365 spo userprofile get</td>
@@ -297,7 +336,7 @@
 <td><a href="flow-export-all-flows-in-environment/README.html">Export all flows in environment</a></td>
 <td style="text-align: center;">Power Automate</td>
 <td style="text-align: center;">Provision</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">m365 flow export, m365 flow list, m365 flow environment list, Export-PnPFlow, Get-PnPFlow</td>
 <td style="text-align: center;">CLI-FOR-MICROSOFT365, PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -308,7 +347,7 @@
 <td><a href="flow-export-flow-logicapp/README.html">Export a single flow to a Logic App</a></td>
 <td style="text-align: center;">Power Automate</td>
 <td style="text-align: center;">Provision</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">m365 flow export, m365 flow list, m365 flow environment list</td>
 <td style="text-align: center;">CLI-FOR-MICROSOFT365</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -396,7 +435,7 @@
 <td><a href="get-all-site-collections-subwebs/README.html">How to to get all site collections with their sub webs</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Report</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">m365 login, m365 status, m365 spo site classic list, m365 spo site list, m365 spo web list, Connect-PnPOnline, Get-PnPSubWeb, Get-PnPTenant, Get-PnPTenantSite</td>
 <td style="text-align: center;">PNP-POWERSHELL, CLI-FOR-MICROSOFT365</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -429,7 +468,7 @@
 <td><a href="graph-common-operations/README.html">Microsoft Graph PowerShell SDK for Common Operations</a></td>
 <td style="text-align: center;">Office, Graph, Teams</td>
 <td style="text-align: center;">Data, Report, Security</td>
-<td style="text-align: center;">bash, classic</td>
+<td style="text-align: center;">bash, classic, Connect-MgGraph, Disconnect-MgGraph, Get-MgUserMessage, Get-MgUser, New-MgChatMessage, Find-MgGraphCommand, Get-MgDirectorySetting, Get-MgProfile, Select-MgProfile, Get-MgDirectorySetting, Get-MgAuditLogSignIn, Get-MgReportMailboxUsageDetail, Invoke-MgGraphRequest</td>
 <td style="text-align: center;">GRAPH-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -473,7 +512,7 @@
 <td><a href="modernize-blog-pages/README.html">Modernize Blog Pages</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Modernize</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">Connect-PnPOnline, ConvertTo-PnPClientSidePage, Get-PnPList, Get-PnPListItem</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -495,7 +534,7 @@
 <td><a href="modernize-classic-pages-from-publishing-sites/README.html"> Modernizing classic pages from on-premises sites</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Modernize</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">Connect-PnPOnline, ConvertTo-PnPClientSidePage, ConvertTo-PnPPage, Export-PnPPage, Export-PnPPageMapping</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -528,7 +567,7 @@
 <td><a href="planner-migration-spo-list/README.html">Planner migration to SharePoint list</a></td>
 <td style="text-align: center;">Planner, SharePoint</td>
 <td style="text-align: center;">Data</td>
-<td style="text-align: center;">SharePoint Online, Microsoft 365, PowerShell, Planner, Imported CLI Sample, Security, m365 login, m365 status, m365 planner plan list, m365 planner bucket list, m365 planner task list, m365 planner task get, m365 aad user get, m365 spo list add, m365 spo field add, m365 spo listitem add, m365 spo listitem set</td>
+<td style="text-align: center;">SharePoint Online, Microsoft 365, PowerShell, Planner, Imported CLI Sample, Security, m365 login, m365 status, m365 planner plan list, m365 planner bucket list, m365 planner task list, m365 planner task get, m365 aad user get, m365 spo list add, m365 spo field add, m365 spo listitem add, m365 spo listitem set, m365 spo list view field add, m365 spo list view set, Add-PnPField, Add-PnPFieldFromXml, Add-PnPListItem, Add-PnPView, Connect-PnPOnline, Get-PnPAzureADUser, Get-PnPPlannerBucket, Get-PnPPlannerPlan, Get-PnPPlannerTask, New-PnPList, Set-PnPList, Set-PnPListItem, Set-PnPView</td>
 <td style="text-align: center;">CLI-FOR-MICROSOFT365, PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -602,6 +641,17 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="spo-activate-site-feature/README.html">Activate a site feature in SharePoint online</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Configure</td>
+<td style="text-align: center;">modern, Connect-PnPOnline, Get-PnPFeature, Enable-PnPFeature</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-add-app-catalog/README.html">Add App Catalog to SharePoint site</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Deploy, Configure</td>
@@ -616,7 +666,18 @@
 <td><a href="spo-add-bulk-users-to-groups/README.html">Add bulk users to SharePoint site groups from CSV.</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Configure, Security</td>
-<td style="text-align: center;">Add-PnPGroupMember, Connect-PnPOnline, Get-PnPGroup, Get-PnPGroupMember</td>
+<td style="text-align: center;">Connect-PnPOnline, Add-PnPGroupMember, Get-PnPGroup, Get-PnPGroupMember, Connect-SPOService, Get-SPOSite, Get-SPOUser, Add-SPOUser</td>
+<td style="text-align: center;">PNP-POWERSHELL, SPO-MANAGEMENT-SHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><a href="spo-add-contenttypehub-format-field-to-List/README.html">Add Content Type Hub with calendar format field to List</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Deploy, Provision</td>
+<td style="text-align: center;">Connect-PnPOnline, Get-PnPContentTypePublishingHubUrl, Invoke-WebRequest, Get-PnPContentType, Add-PnPContentType, Add-PnPField, Set-PnPField, Add-PnPFieldToContentType, Publish-PnPContentType, Add-PnPContentTypesFromContentTypeHub, New-PnPList, Remove-PnPContentTypeFromList, Add-PnPContentTypeToList, Set-PnPView, Disconnect-PnPOnline</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -635,6 +696,17 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="spo-add-demo-content-from-site/README.html">Add demo content from a website such as Wikipedia</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Content</td>
+<td style="text-align: center;">Connect-PnPOnline, Add-PnPFile</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-add-document-library-webpart-to-page/README.html">Add a document library web part to a page</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Configure</td>
@@ -644,6 +716,28 @@
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><a href="spo-add-dummy-folders-and-files/README.html">Add dummy folders and files.</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Configure, Security</td>
+<td style="text-align: center;">Connect-PnPOnline, Add-PnPFolder, Add-PnPFile</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><a href="spo-add-formextension-to-list/README.html">Associate Form Customizer Extension with List or Libraries Form</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Modernize, Data, Deploy, Provision, Configure, Report, Security</td>
+<td style="text-align: center;">bash, classic</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
 </tr>
 <tr>
 <td><a href="spo-add-list-template-with-custom-library/README.html">Creates and apply custom list template</a></td>
@@ -745,6 +839,17 @@
 <td style="text-align: center;">3</td>
 </tr>
 <tr>
+<td><a href="spo-add-update-image-column/README.html">Add/Update Image in SharePoint Image column</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Configure</td>
+<td style="text-align: center;">modern, Connect-PnPOnline, Add-PnPListItem, Set-PnPListItem</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-apply-column-format/README.html">Script allow copy column format in SharePoint and apply to different column.</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Deploy, Configure</td>
@@ -754,6 +859,17 @@
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><a href="spo-apply-custom-form-formatting-json/README.html">Sample showing how to apply a custom Form Formatting as part of your Site Provisioning</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
 </tr>
 <tr>
 <td><a href="spo-bulk-publish-syntex-model/README.html">Bulk Publish Syntex Models To Libraries</a></td>
@@ -776,6 +892,17 @@
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><a href="spo-copy-directory-structure-to-sharepoint-list/README.html">Copy the folder structure of a directory to a SharePoint list</a></td>
+<td style="text-align: center;">SharePoint, Graph</td>
+<td style="text-align: center;">Configure</td>
+<td style="text-align: center;">Unified Audit Logs, ULS, PDF</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
 </tr>
 <tr>
 <td><a href="spo-copy-files-to-another-library/README.html">Copy files to another SharePoint Library in another site</a></td>
@@ -814,7 +941,7 @@
 <td><a href="spo-copy-webparts-to-another-page/README.html">Copy Webparts From One Page To Another Page</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">Connect-PnPOnline</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -869,7 +996,18 @@
 <td><a href="spo-delete-orphaned-temporary-sitepages/README.html">Delete orphaned temporary pages from Site Pages</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Deploy</td>
-<td style="text-align: center;">Modern page, Site Pages, Connect-PnPOnline, Disconnect-PnPOnline, Get-PnPContext, Get-PnPList, Invoke-PnPQuery</td>
+<td style="text-align: center;">Modern page, Site Pages, Connect-PnPOnline, Disconnect-PnPOnline, Get-PnPContext, Get-PnPList, Invoke-PnPQuery, m365 login, m365 status, m365 spo page list, m365 spo page remove, m365 logout, m365 spo file checkin, m365 spo file checkout, m365 spo list get</td>
+<td style="text-align: center;">PNP-POWERSHELL, CLI-FOR-MICROSOFT365</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><a href="spo-deploy-sppkgs-and-install-apps/README.html">Deploy sppkgs and install apps</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Deploy</td>
+<td style="text-align: center;">bash, classic</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -881,6 +1019,17 @@
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Deploy</td>
 <td style="text-align: center;">SharePoint Online, SPO Theme, Connect-PnPOnline, Get-PnPTenant, Get-PnPTenantTheme, Get-PnPWeb</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><a href="spo-disable-list-comments-tenant/README.html">Disable SharePoint List Commenting at tenant level</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Configure</td>
+<td style="text-align: center;">modern, Connect-PnPOnline, Set-PnPTenant</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -921,6 +1070,28 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="spo-export-all-site-pages-details/README.html">Export all site pages details from Site Pages library</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data, SharePoint</td>
+<td style="text-align: center;">Connect-PnPOnline, Get-PnPListItem</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><a href="spo-export-basic-sitecollection-info/README.html">Sample showing how to export basic site collection properties to a CSV file</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data</td>
+<td style="text-align: center;">Connect-PnPOnline, Get-PnPProperty, Get-PnPSite, Get-PnPTenant, Get-PnPTenantSite, Get-PnPWeb</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-export-checked-out-files-in-all-sites-associated-with-a-hub-site-to-csv/README.html">Export checked-out files in all sites associated with a hub site to CSV</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data, Migration, Report</td>
@@ -935,7 +1106,7 @@
 <td><a href="spo-export-data-to-sharepoint-lists/README.html">Export CSV To SharePoint List Data</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">m365 login, m365 status, m365 spo field add, m365 spo list add, m365 spo list view field add, m365 spo listitem add, Add-PnPField, Add-PnPListItem, New-PnPList</td>
 <td style="text-align: center;">PNP-POWERSHELL, CLI-FOR-MICROSOFT365</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -979,7 +1150,7 @@
 <td><a href="spo-export-site-all-content/README.html">Export all content from an existing SharePoint site</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">Add-PnPFile, Add-PnPFileToSiteTemplate, Connect-PnPOnline, Disconnect-PnPOnline, Get-PnPFile, Get-PnPFolder, Get-PnPFolderItem, Get-PnPList, Get-PnPSite, Get-PnPSiteTemplate, Invoke-PnPSiteTemplate, Save-PnPSiteTemplate</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1001,7 +1172,7 @@
 <td><a href="spo-export-sitecollection-permission-with-subwebs/README.html">Get SharePoint Site Collection and their Subwebs Permissions And Export It To CSV</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data, Report, Security</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">Connect-PnPOnline, Get-PnPGroup, Get-PnPGroupMember, Get-PnPProperty, Get-PnPSubWeb, Get-PnPWeb</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1023,12 +1194,12 @@
 <td><a href="spo-export-termstore-terms-to-csv/README.html">Export SharePoint Term Store terms to CSV</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data, Migration, Archive</td>
-<td style="text-align: center;">m365 login, m365 spo terms list</td>
-<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">m365 login, m365 spo terms list, m365 logout, m365 status, m365 spo term group list, m365 spo term list, m365 spo term set list, Connect-PnPOnline, Disconnect-PnPOnline, Get-PnPTerm, Get-PnPTermGroup, Get-PnPTermSet</td>
+<td style="text-align: center;">PNP-POWERSHELL, CLI-FOR-MICROSOFT365</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">1</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">2</td>
 </tr>
 <tr>
 <td><a href="spo-extract-and-invoke-site-template/README.html">Create a SharePoint site using the configuration of another site</a></td>
@@ -1097,10 +1268,21 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="spo-get-files-and-creators-modifiers/README.html">Get all files in a Document Library along with Created By and Modified By</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Report</td>
+<td style="text-align: center;">bash, classic, Connect-PnPOnline, Get-PnPList, Get-PnPListItem, Get-PnPTenant, Get-PnPTenantSite</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-get-list-library-permission-export-to-csv/README.html">Get SharePoint List Or Library Permissions And Export It To CSV</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data, Report, Security</td>
-<td style="text-align: center;">Permission, Connect-PnPOnline, Disconnect-PnPOnline, m365 login, m365 spo list get, m365 spo group user list</td>
+<td style="text-align: center;">Permission, Connect-PnPOnline, Disconnect-PnPOnline, m365 login, m365 spo list get, m365 spo group user list, m365 status, Get-PnPGroup, Get-PnPGroupMember, Get-PnPProperty</td>
 <td style="text-align: center;">PNP-POWERSHELL, CLI-FOR-MICROSOFT365</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1117,6 +1299,17 @@
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">2</td>
+</tr>
+<tr>
+<td><a href="spo-get-usage-from-audit-logs/README.html">Gets usage from a particular user(s) or site(s) from the Unified Audit Log</a></td>
+<td style="text-align: center;">SharePoint, Graph</td>
+<td style="text-align: center;">Report</td>
+<td style="text-align: center;">Unified Audit Logs, ULS, PDF</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
 </tr>
 <tr>
 <td><a href="spo-grant-api-permissions-aad/README.html">Grant API permissions to SharePoint Azure AD Application</a></td>
@@ -1155,7 +1348,7 @@
 <td><a href="spo-hub-sites-association/README.html">SharePoint Online Hub Site Association</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Configure</td>
-<td style="text-align: center;">SharePoint Online, Hub Site, Connect-PnPOnline, Add-PnPHubSiteAssociation, m365 login, m365 status, m365 spo hubsite list, m365 spo hubsite connect</td>
+<td style="text-align: center;">SharePoint Online, Hub Site, Connect-PnPOnline, Add-PnPHubSiteAssociation, m365 login, m365 status, m365 spo hubsite list, m365 spo hubsite connect, Add-SPOHubSiteAssociation, Connect-SPOService</td>
 <td style="text-align: center;">PNP-POWERSHELL, SPO-MANAGEMENT-SHELL, cli-for-microsoft365</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1229,6 +1422,17 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="spo-list-download-contenttype-documenttemplate/README.html">Download all the content type document templates files associated with a library</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data, Provision</td>
+<td style="text-align: center;">classic, Connect-PnPOnline, Get-PnPList, Get-PnPFile</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-list-failed-sitedesigns/README.html">List all failed site design for all sites</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Provision</td>
@@ -1254,7 +1458,7 @@
 <td><a href="spo-list-items-large-lists/README.html">Get/add/update/delete list items in large lists</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data</td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">m365 login, m365 status, m365 spo list get, m365 spo listitem add, m365 spo listitem list, m365 spo listitem remove, m365 spo listitem set, Add-PnPListItem, Connect-PnPOnline, Get-PnPList, Get-PnPListItem, Invoke-PnPBatch, New-PnPBatch, Remove-PnPList, Remove-PnPListItem, Set-PnPList, Set-PnPListItem</td>
 <td style="text-align: center;">PNP-POWERSHELL, CLI-FOR-MICROSOFT365</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1339,6 +1543,17 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="spo-list-update-contenttype-systemupdate/README.html">Update content type of files in folder with system update</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data, Provision</td>
+<td style="text-align: center;">classic, Connect-PnPOnline, Disconnect-PnPOnline, Get-PnPListItem, Set-PnPListItem</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-modern-page-publishing-report/README.html">SharePoint Modern Page Publishing Report</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Configure, Report</td>
@@ -1372,6 +1587,17 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="spo-open-doc-in-client/README.html">Open Office documents in the Client </a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-provision-homepage/README.html">Provision Home Page to a SharePoint site</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data, Provision</td>
@@ -1383,10 +1609,21 @@
 <td style="text-align: center;">1</td>
 </tr>
 <tr>
+<td><a href="spo-quicklink-wp-creator/README.html">Create a Quick Links web part with items defined in a datasource</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data</td>
+<td style="text-align: center;">Add-PnPField, Add-PnPListItem, Add-PnPPage, Add-PnPPageWebPart, Connect-PnPOnline, Disconnect-PnPOnline, Get-PnPList, Get-PnPListItem, Get-PnPPage, Get-PnPWeb, New-PnPList</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-recover-meeting-recordings/README.html">SPO Recover Deleted Meeting Recordings</a></td>
 <td style="text-align: center;">SharePoint, Teams</td>
 <td style="text-align: center;">Report, Security</td>
-<td style="text-align: center;">bash, classic</td>
+<td style="text-align: center;">bash, classic, Get-PnPRecycleBinItem, Restore-PnPRecycleBinItem, Get-SPODeletedSite, Get-SPOSite, Set-SPOUser</td>
 <td style="text-align: center;">PNP-POWERSHELL, SPO-MANAGEMENT-SHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1482,6 +1719,17 @@
 <td style="text-align: center;">2</td>
 </tr>
 <tr>
+<td><a href="spo-remove-webpart-from-pages/README.html">Remove modern web parts from pages</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data, Migration, Archive</td>
+<td style="text-align: center;">m365 login, m365 spo web part, m365 spo web part properties, Connect-PnPOnline, Disconnect-PnPOnline, Get-PnPList, Get-PnPListItem, Get-PnPPage</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
 <td><a href="spo-replace-site-collection-admin/README.html">Replace site collection admin with another user</a></td>
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Configure, Security</td>
@@ -1508,6 +1756,17 @@
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><a href="spo-search-change-placeholder-text/README.html">Change the Placeholder text in SharePoint Search Box</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Configure</td>
+<td style="text-align: center;">modern, search, Connect-PnPOnline, Set-PnPSearchSettings</td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1596,6 +1855,17 @@
 <td style="text-align: center;">SharePoint</td>
 <td style="text-align: center;">Data, Migration, Archive</td>
 <td style="text-align: center;">m365 login, m365 spo web part, m365 spo web part properties, Connect-PnPOnline, Disconnect-PnPOnline, Get-PnPList, Get-PnPListItem, Get-PnPPage</td>
+<td style="text-align: center;">PNP-POWERSHELL</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">👍</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td><a href="spo-update-search-result-webparts/README.html">Sample on how to locate the classic Search Result Web part and check the Remove Duplicates setting</a></td>
+<td style="text-align: center;">SharePoint</td>
+<td style="text-align: center;">Data</td>
+<td style="text-align: center;"></td>
 <td style="text-align: center;">PNP-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1936,7 +2206,7 @@
 <td><a href="whiteboard-report-usage/README.html">Export a csv report on all Whiteboards</a></td>
 <td style="text-align: center;">Office, Whiteboard</td>
 <td style="text-align: center;">Data, Report</td>
-<td style="text-align: center;">Whiteboard, Report</td>
+<td style="text-align: center;">Whiteboard, Report, Connect-MgGraph, Get-MgUser</td>
 <td style="text-align: center;">MICROSOFTWHITEBOARDADMIN, GRAPH-POWERSHELL</td>
 <td style="text-align: center;">👍</td>
 <td style="text-align: center;">👍</td>
@@ -1945,7 +2215,7 @@
 </tr>
 </tbody>
 </table>
-<p>There are <strong>168</strong> script scenarios with metadata in the site | Generated: 26 Sep 2022 09:28:45</p>
+<p>There are <strong>191</strong> script scenarios with metadata in the site | Generated: 06 Dec 2022 10:34:55</p>
 </article>
           </div>
         </div>

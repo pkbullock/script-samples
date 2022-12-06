@@ -3892,6 +3892,52 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "../scripts/spo-create-multi-hub-sites/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "spo-create-multi-hub-sites/README.html",
+          "hash": "+aotY6e/hSQ2fBUvrhzNVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "plugin": "add-to-gallery"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-create-multi-hub-sites/assets/example.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-create-multi-hub-sites/assets/example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-create-multi-hub-sites/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-create-multi-hub-sites/assets/preview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-create-multi-hub-sites/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "spo-create-multi-hub-sites/assets/sample.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "../scripts/spo-create-sharepoint-groups-bulk-csv/README.md",
       "output": {
         ".html": {
@@ -10024,7 +10070,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdusage.html",
-          "hash": "f6vNfyFYTgGRfSUtI8oGTg=="
+          "hash": "xxzCv84r9j95EGetIibKaQ=="
         }
       },
       "is_incremental": false,
@@ -10133,7 +10179,7 @@
       "output": {
         ".html": {
           "relative_path": "matrix.html",
-          "hash": "uNbYVsB96lkvYDIhYYKfEA=="
+          "hash": "CHP9QOcFIHAPbupfTg2vtg=="
         }
       },
       "is_incremental": false,
@@ -10145,7 +10191,7 @@
       "output": {
         ".html": {
           "relative_path": "metadata.html",
-          "hash": "1nVbjr10RpywYOrMRze8xg=="
+          "hash": "XSCfi6hDgDpG8yZKE+gIQA=="
         }
       },
       "is_incremental": false,

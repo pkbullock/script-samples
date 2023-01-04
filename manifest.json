@@ -8125,7 +8125,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdusage.html",
-          "hash": "r2WlJhTNrmAj8ebCJZxzhA=="
+          "hash": "2EC5ED7ckgk0YGPlU9Fmig=="
         }
       },
       "is_incremental": false,
@@ -8181,6 +8181,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "contributing/recognition.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/recognition.html",
+          "hash": "/tmDl1yA80caessQYUF44Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "contributing/submitting-pull-requests.md",
       "output": {
         ".html": {
@@ -8197,7 +8209,7 @@
       "output": {
         ".html": {
           "relative_path": "contributing/toc.html",
-          "hash": "rAEnWDumfr+YB1A/asu4fw=="
+          "hash": "c0mX7V4ulTJeV1anTf3k1w=="
         }
       },
       "is_incremental": false,
@@ -8234,7 +8246,7 @@
       "output": {
         ".html": {
           "relative_path": "matrix.html",
-          "hash": "ZFiulSxNRJ5Ay+r0+HNJPg=="
+          "hash": "ru6LfKkGU7rtFaleNnpT0A=="
         }
       },
       "is_incremental": false,
@@ -8246,7 +8258,7 @@
       "output": {
         ".html": {
           "relative_path": "metadata.html",
-          "hash": "VGOOSjVS6T9pOu8tkSmUAQ=="
+          "hash": "wWzm2SUxahI/tQ34CIdmog=="
         }
       },
       "is_incremental": false,

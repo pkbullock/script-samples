@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <title>Reset files permissions unique to Inherited | PnP Samples </title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" "="">
     <meta name="title" content="Reset files permissions unique to Inherited | PnP Samples ">
     <meta name="generator" content="docfx 2.56.7.0">
     <meta name="description" content="A sample gallery of scripts to manage all things Microsoft 365.">
@@ -18,6 +18,7 @@
     <meta property="og:image" content="https://pnp.github.io/script-samples/assets/social-media-screenshot.png">
     <meta property="og:image:alt" content="Screenshot example of the PnP Script Samples Site">
     <meta property="og:site_name" content="PnP Script Samples">
+    <meta name="msvalidate.01" content="04EFEDA66EC42C08A1247C979E2F9ADD">
     <meta property="og:description" content="A sample gallery of scripts to manage all things Microsoft 365.">
   
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2">
@@ -123,13 +124,29 @@ Connect-PnPOnline -Url $siteURL -Credentials (Get-Credential)
 $listName = &quot;Document Library&quot;
 #Get the Context
 $Context = Get-PnPContext
-## Get all folders from given list
-$Folders = Get-PnPFolder -List $listName
+
+try {
+    ## Get all folders from given list
+    $folders = Get-PnPFolder -List $listName
+}
+catch {
+    ## Do this if a terminating exception happens
+    Write-Host &quot;Error: $($_.Exception.Message)&quot; -ForegroundColor Red
+    try {
+        Write-Host &quot;Trying to use Get-PnPListItem&quot; -ForegroundColor Yellow
+        #Treat the folder as item, and the item attribute is Folder (FileSystemObjectType -eq &quot;Folder&quot;)  
+    $folders = Get-PnPListItem -List $listName -PageSize 500 -Fields FileLeafRef | Where {$_.FileSystemObjectType -eq &quot;Folder&quot;}
+    }
+    catch {
+        Write-Host &quot;Error: $($_.Exception.Message)&quot; -ForegroundColor Red
+    }
+}
+
 Write-Output &quot;Total Folder found $($Folders.Count)&quot;
 ## Traverse all files from all folders.
 foreach($folder in $folders){
     Write-Host &quot;get all files from folder '$($folder.Name)'&quot; -ForegroundColor DarkGreen
-    $files = Get-PnPListItem -List $listName -FolderServerRelativeUrl $folder.ServerRelativeUrl
+    $files = Get-PnPListItem -List $listName -FolderServerRelativeUrl $folder.ServerRelativeUrl -PageSize 500 
     Write-Host &quot;Total Files found $($Files.Count) in folder $($folder.Name)&quot; -ForegroundColor DarkGreen
     foreach ($file in $files){
         ## Check object type is file or folder.If file than do process else do nothing.
@@ -171,7 +188,8 @@ $siteURL = Read-Host &quot;Please enter Site URL&quot;
 $listName = Read-Host &quot;Please enter list name&quot;
 
 # Get the list
-$list = m365 spo list list --webUrl $siteURL --query &quot;[?RootFolder.Name == '$listName']&quot; --output json | ConvertFrom-Json
+$list  = m365 spo list get --title $listName --webUrl $siteURL --withPermissions --output json | ConvertFrom-Json
+
 
 # Get all files in the list
 $files = m365 spo file list --webUrl $siteURL --folder $listName --recursive --output json | ConvertFrom-Json
@@ -210,11 +228,14 @@ foreach ($file in $files) {
 <tr>
 <td><a href="https://github.com/nanddeepn">Nanddeep Nachan</a></td>
 </tr>
+<tr>
+<td><a href="https://github.com/ValerasNarbutas">Valeras Narbutas</a></td>
+</tr>
 </tbody>
 </table>
 <h2 id="disclaimer">Disclaimer</h2>
 <p><strong>THESE SAMPLES ARE PROVIDED <em>AS IS</em> WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.</strong></p>
-<img src="https://pnptelemetry.azurewebsites.net/script-samples/scripts/reset-files-permission-unique-to-inherited" aria-hidden="true">
+<img src="https://m365-visitor-stats.azurewebsites.net/script-samples/scripts/reset-files-permission-unique-to-inherited" aria-hidden="true">
 </article>
           </div>
         </div>

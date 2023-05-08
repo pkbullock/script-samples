@@ -135,7 +135,7 @@
       "output": {
         ".html": {
           "relative_path": "aad-add-app-permissions-and-connect-to-sharepoint/README.html",
-          "hash": "u/cd/LNwPkb1PYEpllMkNw=="
+          "hash": "9G/NWSqn3wAJIvcQzDrmLw=="
         }
       },
       "is_incremental": false,
@@ -514,7 +514,7 @@
       "output": {
         ".html": {
           "relative_path": "aad-replace-owner-with-a-different-one/README.html",
-          "hash": "Y0BEPZ29fGNFHdnmaim++Q=="
+          "hash": "zF3ZjxAhHvGWI2RTUzpMZw=="
         }
       },
       "is_incremental": false,
@@ -1443,7 +1443,7 @@
       "output": {
         ".html": {
           "relative_path": "graph-download-office-documents-as-pdf/README.html",
-          "hash": "WiaZS6/2syYE5iU3GGOlmg=="
+          "hash": "0HVNTyfhaam7Mg+nUch8Vg=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "planner-copy-planner-plan/README.html",
-          "hash": "fSh53Ewej/XS61BPwHt0Aw=="
+          "hash": "BZu3P8bbU3md3CxliCrQGw=="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2322,7 @@
       "output": {
         ".html": {
           "relative_path": "report-private-teams-excel/README.html",
-          "hash": "NUPqGA9m2fB3EYcjn2UaoA=="
+          "hash": "wB4+nVA2yWScv3u7X/w60g=="
         }
       },
       "is_incremental": false,
@@ -2414,7 +2414,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-activate-site-feature/README.html",
-          "hash": "c5yO6d8YWmMY58wVILAItQ=="
+          "hash": "qNP+gHFLbVqy/w0c1/tt5g=="
         }
       },
       "is_incremental": false,
@@ -2460,7 +2460,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-add-app-catalog/README.html",
-          "hash": "enrunUTehnLjXjPaFE3Aiw=="
+          "hash": "VLlKaWshrb8SAHPKB4XDFg=="
         }
       },
       "is_incremental": false,
@@ -3074,6 +3074,63 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "../scripts/spo-add-page-template/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "spo-add-page-template/README.html",
+          "hash": "lXr/X8Jz4wXtUOlavgZ9TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "plugin": "add-to-gallery"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-add-page-template/assets/example.gif",
+      "output": {
+        "resource": {
+          "relative_path": "spo-add-page-template/assets/example.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-add-page-template/assets/example.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-add-page-template/assets/example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-add-page-template/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-add-page-template/assets/preview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-add-page-template/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "spo-add-page-template/assets/sample.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "../scripts/spo-add-site-design-with-custom-list/README.md",
       "output": {
         ".html": {
@@ -3538,7 +3595,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-associate-multiple-sites-to-hub/README.html",
-          "hash": "LSHzXI+VE5nbKX1lCfgJOA=="
+          "hash": "sn6G+fQcXgpq8wRxCQOJjQ=="
         }
       },
       "is_incremental": false,
@@ -3630,7 +3687,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-bulk-publish-syntex-model/README.html",
-          "hash": "uXxN+2vKEg9jjHR1SF8a3w=="
+          "hash": "+dhzAv7l+LtRzzTnJposEw=="
         }
       },
       "is_incremental": false,
@@ -3847,7 +3904,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-copy-directory-structure-to-sharepoint-list/README.html",
-          "hash": "BAS2tEgdj1Sir5/AZ8W7DA=="
+          "hash": "Jon5hUBO5rr/tmGUZMYmdw=="
         }
       },
       "is_incremental": false,
@@ -4325,6 +4382,52 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "../scripts/spo-deploy-install-update-spfx-hubsite-associatedsites/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "spo-deploy-install-update-spfx-hubsite-associatedsites/README.html",
+          "hash": "2hdqPYp3mrIjgUv82Dt2IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "plugin": "add-to-gallery"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-deploy-install-update-spfx-hubsite-associatedsites/assets/example.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-deploy-install-update-spfx-hubsite-associatedsites/assets/example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-deploy-install-update-spfx-hubsite-associatedsites/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-deploy-install-update-spfx-hubsite-associatedsites/assets/preview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-deploy-install-update-spfx-hubsite-associatedsites/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "spo-deploy-install-update-spfx-hubsite-associatedsites/assets/sample.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "../scripts/spo-deploy-pnpmodernsearch-webpart/README.md",
       "output": {
         ".html": {
@@ -4467,7 +4570,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-disable-list-comments-tenant/README.html",
-          "hash": "rsSjGbdVhqK7WSQSw+EuCg=="
+          "hash": "1KtNpUVZUtDshzbhAwH9qg=="
         }
       },
       "is_incremental": false,
@@ -4513,7 +4616,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-disable-list-comments/README.html",
-          "hash": "iUVsbijqrAlTP5rIItYn8g=="
+          "hash": "EOj81S6gw6f8BJ/33g3gCg=="
         }
       },
       "is_incremental": false,
@@ -4548,6 +4651,41 @@
       "output": {
         "resource": {
           "relative_path": "spo-disable-list-comments/assets/sample.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../scripts/spo-document-sets-modern-new-form/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "spo-document-sets-modern-new-form/README.html",
+          "hash": "LrAA7rDoLqYW/P4YNyccWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "plugin": "add-to-gallery"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-document-sets-modern-new-form/assets/output.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-document-sets-modern-new-form/assets/output.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-document-sets-modern-new-form/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "spo-document-sets-modern-new-form/assets/sample.json"
         }
       },
       "is_incremental": false,
@@ -4605,7 +4743,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-empty-recycle-bin/README.html",
-          "hash": "sIgRUit/Y2gw5g/XLunTag=="
+          "hash": "nqRO6++beLO27zOet5GSSQ=="
         }
       },
       "is_incremental": false,
@@ -4693,6 +4831,52 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "../scripts/spo-enable-disable-app-bar/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "spo-enable-disable-app-bar/README.html",
+          "hash": "cOv8zZTbN25+rbQhn6D1Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "plugin": "add-to-gallery"
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-enable-disable-app-bar/assets/AppBar.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-enable-disable-app-bar/assets/AppBar.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-enable-disable-app-bar/assets/preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "spo-enable-disable-app-bar/assets/preview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "../scripts/spo-enable-disable-app-bar/assets/sample.json",
+      "output": {
+        "resource": {
+          "relative_path": "spo-enable-disable-app-bar/assets/sample.json"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "../scripts/spo-enable-page-scheduling/README.md",
       "output": {
         ".html": {
@@ -4732,7 +4916,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-enable-site-collection-app-catalog/README.html",
-          "hash": "mQm+79D+3s35VyQMcIvZGA=="
+          "hash": "gTRaRWr860ouDpMlMnYHzA=="
         }
       },
       "is_incremental": false,
@@ -6136,7 +6320,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-get-message-centre-announcements-and-post-to-teams-channel/README.html",
-          "hash": "PWTrxLtpKe2dXpwGBrkdrQ=="
+          "hash": "Sc2qr8uwQK87gEBvWg9Fpg=="
         }
       },
       "is_incremental": false,
@@ -7043,7 +7227,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-open-doc-in-client/README.html",
-          "hash": "wu2K+NQ4iUGVAlfJUbn0oQ=="
+          "hash": "Zq6nxHoEQLpkgLURT72ckw=="
         }
       },
       "is_incremental": false,
@@ -7534,7 +7718,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-remove-page-title-area/README.html",
-          "hash": "SIGKyV+T3ml1VZgjEGLjoA=="
+          "hash": "Bp8ZAcXCsyLtWpeHiWmYfQ=="
         }
       },
       "is_incremental": false,
@@ -7580,7 +7764,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-remove-site-designs/README.html",
-          "hash": "Nr3a//bVVUJcL8Jgk4E3oQ=="
+          "hash": "fQ33+bpls+X0MqtouNGeqg=="
         }
       },
       "is_incremental": false,
@@ -7626,7 +7810,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-remove-site-scripts/README.html",
-          "hash": "PAB3QPp6iTDPpKv594zeLA=="
+          "hash": "frz5Fl23eDiZOb6D8ry5qw=="
         }
       },
       "is_incremental": false,
@@ -7891,7 +8075,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-set-home-site/README.html",
-          "hash": "qWG6CUog0DWR6STBRKE8gA=="
+          "hash": "KugIsAzl45EkQ00n3ar1hw=="
         }
       },
       "is_incremental": false,
@@ -7983,7 +8167,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-set-sharepoint-regional-settings/README.html",
-          "hash": "/xEhq7EulbFdTkfFA5BZQQ=="
+          "hash": "bpUtQMExR1aAbdMNGqRl3Q=="
         }
       },
       "is_incremental": false,
@@ -8222,7 +8406,7 @@
       "output": {
         ".html": {
           "relative_path": "spo-update-page-banner-image/README.html",
-          "hash": "QskrPICOK84E8fEa37WeBg=="
+          "hash": "APAEsSfTW0nLVAj8D1dkLw=="
         }
       },
       "is_incremental": false,
@@ -8897,7 +9081,7 @@
       "output": {
         ".html": {
           "relative_path": "teams-list-teams-owners-and-members/README.html",
-          "hash": "RAvv8qkWlaOMwcJLUW+lIA=="
+          "hash": "KwmanKisBEP0LhZvIMiLcg=="
         }
       },
       "is_incremental": false,
@@ -9791,7 +9975,7 @@
       "output": {
         ".html": {
           "relative_path": "cmdusage.html",
-          "hash": "PJgbzD4dEO5L1xJ4IHma6A=="
+          "hash": "CDm8pQeOnREJAaTjyqc3hQ=="
         }
       },
       "is_incremental": false,
@@ -9924,7 +10108,7 @@
       "output": {
         ".html": {
           "relative_path": "matrix.html",
-          "hash": "oNp7vCpjmktK5WNNijJV/w=="
+          "hash": "RVrTOlyb2aLhocfQhq/qHA=="
         }
       },
       "is_incremental": false,
@@ -9936,7 +10120,7 @@
       "output": {
         ".html": {
           "relative_path": "metadata.html",
-          "hash": "m12X4ke0higZF4yS/6IrbA=="
+          "hash": "oHtqbncEBRUelFXRsTi8DQ=="
         }
       },
       "is_incremental": false,

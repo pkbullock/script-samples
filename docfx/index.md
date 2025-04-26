@@ -1,4 +1,4 @@
-# Script Samples
+# PnP Script Samples
 
 Find scenarios and scripts here using tools such as ***PnP PowerShell, CLI for Microsoft 365, Graph PowerShell SDK*** and more. Are you looking for authoring tool then check out extensions
 [PnP PowerShell](https://marketplace.visualstudio.com/items?itemName=adamwojcikit.pnp-powershell-extension) and [CLI for Microsoft 365](https://marketplace.visualstudio.com/items?itemName=adamwojcikit.cli-for-microsoft-365-extension) for Visual Studio Code

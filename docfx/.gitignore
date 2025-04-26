@@ -7,3 +7,6 @@
 /**/bin/
 /**/obj/
 _site
+
+# Block for compiled theme files
+templates/modern-script-samples/*

@@ -12,7 +12,7 @@ const { hideBin } = require('yargs/helpers')
 const argv = yargs(hideBin(process.argv)).argv
 
 const watch = argv.watch
-const project = argv.project || '../samples/seed'
+const project = argv.project || '..\\'
 const distdir = '../templates'
 
 const loader = {
@@ -79,15 +79,11 @@ function copyToDist() {
     const segments = src.split(/[/\\]/)
     return !segments.includes('node_modules') && !segments.includes('package-lock.json') && !segments.includes('src')
   }
-
-  function staticTocFilter(src) {
-    return filter(src) && !src.includes('toc.html')
-  }
 }
 
 function buildContent() {
-  exec(`dotnet run -f net8.0 --project ../src/docfx/docfx.csproj -- metadata ${project}/docfx.json`)
-  exec(`dotnet run -f net8.0 --project ../src/docfx/docfx.csproj --no-build -- build ${project}/docfx.json`)
+  // TODO: Remove the fixed paths
+  exec(`D:\\docfx\\2.78.3\\docfx build D:\\contrib\\pkb-script-samples\\docfx\\docfx.json`)
 
   function exec(cmd) {
     if (spawnSync(cmd, { stdio: 'inherit', shell: true }).status !== 0) {
@@ -103,13 +99,13 @@ function serve() {
     open: true,
     startPath: '/test',
     files: [
-      'modern/public/**',
+      'modern-script-samples/public/**',
       join(project, '_site', '**')
     ],
     server: {
       routes: {
         '/test/public/main.js': join(project, '_site', 'public', 'main.js'),
-        '/test/public': 'modern/public',
+        '/test/public': 'modern-script-samples/public',
         '/test': join(project, '_site')
       }
     }
